@@ -29,7 +29,10 @@ The average case is something I found online and as such maybe the search functi
 The original tree might have been all one data type while the second might have been a mixture of them which can take much longer to search through.
 
 
+$^{[1]}$ I got this average case from wikipedia at; https://en.wikipedia.org/wiki/Binary_search_tree
+I also had to google a little bit of markdown code for the approximatley equals sign here; https://stackoverflow.com/questions/43025450/how-can-i-type-approximate-equal-sign-in-markdown-jupyter
 
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice
 
 
 
