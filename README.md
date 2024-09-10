@@ -19,6 +19,14 @@ The Big-O and Big- $\Theta$ bounds are very loose, in the above point I mention 
 Lastly the analysis doesn't factor in hardware, since it's only theoretical we can still get wildly different results from two different machines, for instance if we had a machine from the 60s it would run an algorithm a decent amount slower than a modern machine just because of the ability of the hardware.
 
 
+First we need to determine how many search attempts it took to find the value we were looking for, using the average case $O(log(n))$ $^{[1]}$ we can get log(1000) = 3 search attempts.  We can do the same for a tree of 10,000 elements and build an equation for how long it took.  Using the same average case we can get log(10,000) = 5.  Now for our equation:
+
+$\frac{5s}{3attempts}$ * $4attempts$ $\approx$ 6.7 seconds for the tree of 10,000 elements.
+
+
+The first reason I would think of is that the hardware is different, like my third point above maybe the first search was run on a powerful machine and the second one, while using the same code, was run on a machine with significantly slower internals.
+The average case is something I found online and as such maybe the search function is poorly written and while it does its job it has in reality a much worse asymptotic complexity for trees with amounts of data.
+The original tree might have been all one data type while the second might have been a mixture of them which can take much longer to search through.
 
 
 
