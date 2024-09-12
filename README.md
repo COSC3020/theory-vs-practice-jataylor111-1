@@ -25,7 +25,7 @@ $\frac{5s}{3attempts}$ * $4attempts$ $\approx$ 6.7 seconds for the tree of 10,00
 
 
 The first reason I would think of is that the hardware is different, like my third point above maybe the first search was run on a powerful machine and the second one, while using the same code, was run on a machine with significantly slower internals.
-The average case is something I found online and as such maybe the search function is poorly written and while it does its job it has in reality a much worse asymptotic complexity for larger trees.
+The average case is something I found online and as such maybe the search function is poorly written and while it does its job it has in reality a different average case entirely.
 The original tree might have been all one data type while the second might have been a mixture of them which can take much longer to search through.
 
 
